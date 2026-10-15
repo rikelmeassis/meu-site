@@ -1,0 +1,289 @@
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #1f3c5b;
+}
+
+h2 {
+    border-bottom: 2px solid #1f3c5b;
+    padding-bottom: 8px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    background-color: #1f3c5b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+
+/* MENU */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* CONTEÚDO */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* SEÇÕES */
+
+section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+    border: 1px solid #dddddd;
+}
+
+
+/* APRESENTAÇÃO */
+
+.apresentacao {
+    text-align: center;
+}
+
+.apresentacao img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/* BOTÕES */
+
+.botao {
+    display: inline-block;
+    background-color: #1f3c5b;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: #315b82;
+}
+
+
+/* LISTAS */
+
+ul {
+    line-height: 1.8;
+}
+
+
+/* TABELAS */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1f3c5b;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+
+/* OBJETIVO */
+
+.objetivo {
+    text-align: center;
+    background-color: #e6edf3;
+}
+
+
+/* GITHUB */
+
+.imagem-github {
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #cccccc;
+    margin: 15px 0;
+}
+
+
+/* IMAGEM DO VÔLEI */
+
+.imagem-volei {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+}
+
+
+/* FORMULÁRIO */
+
+form {
+    max-width: 700px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    padding: 10px 18px;
+    margin-left: 10px;
+    border: 1px solid #999999;
+    cursor: pointer;
+}
+
+
+/* ÁUDIO */
+
+audio {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+
+/* VÍDEO DO YOUTUBE */
+
+iframe {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #1f3c5b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .apresentacao img {
+        width: 200px;
+        height: 250px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+
+    input[type="reset"] {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
